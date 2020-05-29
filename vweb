@@ -1,0 +1,1 @@
+nohup mplayer tv:// -tv driver=v4l2:width=800:height=200:device=/dev/video0:fps=30:outfmt=yuy2 &
