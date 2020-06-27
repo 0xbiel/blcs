@@ -1,7 +1,5 @@
-!# /bin/bash
+i3-msg "workspace 2; append_layout /home/biel/projects/blcs/layout.json"
 
-i3-msg "workspace 2; append_layout /home/biel/Projects/fun/stream/layout.json"
-
-alacritty &
-alacritty &
-cd /home/biel/Projects/fun/stream; ./vweb
+urxvt &
+urxvt &
+cd /home/biel/projects/blcs; ./vweb

@@ -1,8 +1,8 @@
 {
     "border": "normal",
     "floating": "auto_off",
-    "layout": "splith",
-    "percent": 0.716691068814056,
+    "layout": "tabbed",
+    "percent": 0.74,
     "type": "con",
     "nodes": [
         {
@@ -10,17 +10,18 @@
             "current_border_width": 2,
             "floating": "auto_off",
             "geometry": {
-               "height": 600,
-               "width": 800,
+               "height": 364,
+               "width": 724,
                "x": 0,
                "y": 0
             },
-            "name": "biel@0xbiel: ~/Projects/fun/stream; vim notes.txt",
+            "name": "biel@0xbiel: ~",
             "percent": 1,
             "swallows": [
                {
-               	"class": "^Alacritty$",
-                "instance": "^Alacritty$"
+                "class": "^URxvt$",
+                "instance": "^x\\-terminal\\-emulator$",
+                "title": "^biel\\@0xbiel\\:\\ \\~$"
                }
             ],
             "type": "con"
@@ -32,76 +33,59 @@
     "border": "normal",
     "floating": "auto_off",
     "layout": "splitv",
-    "percent": 0.283308931185944,
+    "percent": 0.26,
     "type": "con",
     "nodes": [
         {
             "border": "normal",
             "floating": "auto_off",
-            "layout": "splitv",
-            "percent": 1,
+            "layout": "splith",
+            "percent": 0.32,
             "type": "con",
             "nodes": [
                 {
                     "border": "normal",
+                    "current_border_width": 2,
                     "floating": "auto_off",
-                    "layout": "splith",
-                    "percent": 0.318424566088117,
-                    "type": "con",
-                    "nodes": [
-                        {
-                            "border": "normal",
-                            "current_border_width": 2,
-                            "floating": "auto_off",
-                            "geometry": {
-                               "height": 240,
-                               "width": 424,
-                               "x": 471,
-                               "y": 264
-                            },
-                            "name": "MPlayer",
-                            "percent": 1,
-                            "swallows": [
-                               {
-                               	"class": "^MPlayer$",
-                               	"instance": "^xv$",
-                                "title": "^MPlayer$"
-                               }
-                            ],
-                            "type": "con"
-                        }
-                    ]
-                },
-                {
-                    "border": "normal",
-                    "floating": "auto_off",
-                    "layout": "splitv",
-                    "percent": 0.681575433911883,
-                    "type": "con",
-                    "nodes": [
-                        {
-                            "border": "normal",
-                            "current_border_width": 2,
-                            "floating": "auto_off",
-                            "geometry": {
-                               "height": 600,
-                               "width": 800,
-                               "x": 0,
-                               "y": 0
-                            },
-                            "name": "biel@0xbiel: ~",
-                            "percent": 1,
-                            "swallows": [
-                               {
-                                "class": "^Alacritty$",
-                                "instance": "^Alacritty$"
-                               }
-                            ],
-                            "type": "con"
-                        }
-                    ]
+                    "geometry": {
+                       "height": 240,
+                       "width": 424,
+                       "x": 471,
+                       "y": 264
+                    },
+                    "name": "MPlayer",
+                    "percent": 1,
+                    "swallows": [
+                       {
+                        "class": "^MPlayer$",
+                        "instance": "^xv$",
+                        "title": "^MPlayer$"
+                       }
+                    ],
+                    "type": "con"
                 }
             ]
+        },
+        {
+            "border": "normal",
+            "current_border_width": 2,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 364,
+               "width": 724,
+               "x": 0,
+               "y": 0
+            },
+            "name": "biel@0xbiel: ~",
+            "percent": 0.68,
+            "swallows": [
+               {
+                "class": "^URxvt$",
+                "instance": "^x\\-terminal\\-emulator$",
+                "title": "^biel\\@0xbiel\\:\\ \\~$"
+               }
+            ],
+            "type": "con"
         }
     ]
 }
